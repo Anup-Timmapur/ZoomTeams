@@ -21,7 +21,7 @@ name: string;
 msg = 'Are You Sure!';
 description:string;
 
-arrDesig: Designation[];
+arrDesig: Designation[]=[];
 editId:number;
 editName:string;
 editDescription:string;

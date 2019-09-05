@@ -16,9 +16,9 @@ export class DesignationdataService {
 constructor(private http: HttpClient) { }
 
 // private mobUrl = 'api/desig';
-SERVER_URL: string = 'https://b0dbbe59.ngrok.io/api/Settings/GetDesignations';
-SERVER_URL1: string ='https://b0dbbe59.ngrok.io/api/Settings/InsUpdateDesignation';
-
+SERVER_URL: string = 'https://7d23f257.ngrok.io/api/Settings/GetDesignations';
+SERVER_URL_ADD: string ='https://7d23f257.ngrok.io/api/Settings/InsUpdateDesignation';
+// SERVER_URL_ADD: string ='https://b0dbbe59.ngrok.io/api/Settings/GetDesignations';
 
 public getDesignations() {
 return this.http.get(this.SERVER_URL);
@@ -40,7 +40,7 @@ console.log(f);
 console.log(JSON.stringify(f));
 let body = JSON.stringify(f);
 let head = new HttpHeaders().set("Content-Type", "application/json");
-return this.http.post(this.SERVER_URL1, body, {headers: head});
+return this.http.post(this.SERVER_URL_ADD, body, {headers: head});
 
 }
 
