@@ -1,5 +1,5 @@
 .maincontainer {
-  height: 951px;
+  height: 928px;
   width: 100%;
   background-color: #dee2e6;
   position: absolute;
@@ -99,7 +99,7 @@ span.card-minititle {
 
 
 .mat-sidenav-container.main-sidenav-container.mat-sidenav-container {
-  height: 1013px;
+  height: 977px;
 }
 
 .mat-drawer-content {
@@ -131,7 +131,7 @@ hr.horizontal {
 }
 span.btn-btn {
   cursor: pointer;
-  padding: 12px 47px;
+  padding: 17px 47px;
   background-color: #d3d3d352;
   width: -webkit-fill-available;
   font-size: 12px;
@@ -207,4 +207,7 @@ img.users {
   position: relative;
   text-align: left;
   color: #b7b4b4;
+}
+.card-body {
+  margin-left: 11px;
 }

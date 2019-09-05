@@ -16,9 +16,8 @@ export class DesignationdataService {
 constructor(private http: HttpClient) { }
 
 // private mobUrl = 'api/desig';
-SERVER_URL: string = 'https://7d23f257.ngrok.io/api/Settings/GetDesignations';
-SERVER_URL_ADD: string ='https://7d23f257.ngrok.io/api/Settings/InsUpdateDesignation';
-// SERVER_URL_ADD: string ='https://b0dbbe59.ngrok.io/api/Settings/GetDesignations';
+SERVER_URL: string = ' https://d0b3ad92.ngrok.io/api/Settings/GetDesignations';
+SERVER_URL_ADD: string ='https://d0b3ad92.ngrok.io/api/Settings/InsUpdateDesignation';
 
 public getDesignations() {
 return this.http.get(this.SERVER_URL);
