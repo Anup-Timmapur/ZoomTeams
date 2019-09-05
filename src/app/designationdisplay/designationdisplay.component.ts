@@ -32,7 +32,8 @@ ngOnInit() {
     (data:Designation[])=>{
       this.arrDesig=data;
     }
-  );
+    );
+    console.log(this.arrDesig);
 }
 
 onSearch(value) {

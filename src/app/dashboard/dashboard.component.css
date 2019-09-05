@@ -1,16 +1,18 @@
+
 .maincontainer {
-  height: 1000px;
+  height: 951px;
   width: 100%;
   background-color: #dee2e6;
   position: absolute;
-  overflow: scroll;
-}
+  overflow: auto;
+  }
+
 h1.header {
   font-family: inherit;
-  margin-right: 1080px;
   font-size: 24px;
   color: #a9acaf;
   margin-top: 10px;
+  margin-right: 950px;
 }
 .first-container {
   height: 360px;
@@ -176,4 +178,10 @@ label.lbl-name {
 }
 ul.nav.justify-content-end {
   height: 5%;
+}
+
+img.users {
+  padding: 0px 4px;
+  background-color: #d3d3d352;
+  height: 18px;
 }
